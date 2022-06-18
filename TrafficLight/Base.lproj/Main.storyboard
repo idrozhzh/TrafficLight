@@ -74,9 +74,6 @@
                     </view>
                     <connections>
                         <outlet property="actionButton" destination="rhn-jK-QiX" id="IzS-a9-Ly5"/>
-                        <outlet property="greenLightLabel" destination="kBH-7D-Meo" id="eU1-vR-5Me"/>
-                        <outlet property="redLightLabel" destination="fah-2Z-15Q" id="bx7-oQ-CgQ"/>
-                        <outlet property="yellowLightLabel" destination="Yc0-ee-roc" id="4go-ac-SHn"/>
                         <outletCollection property="lightLabels" destination="fah-2Z-15Q" collectionClass="NSMutableArray" id="WYa-00-UVH"/>
                         <outletCollection property="lightLabels" destination="Yc0-ee-roc" collectionClass="NSMutableArray" id="lVl-qf-TjP"/>
                         <outletCollection property="lightLabels" destination="kBH-7D-Meo" collectionClass="NSMutableArray" id="yhm-Wa-vaw"/>

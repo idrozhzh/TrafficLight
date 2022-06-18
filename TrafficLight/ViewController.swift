@@ -8,10 +8,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBOutlet weak var redLightLabel: UIView!
-    @IBOutlet weak var yellowLightLabel: UIView!
-    @IBOutlet weak var greenLightLabel: UIView!
     
     @IBOutlet var lightLabels: [UIView]!
     @IBOutlet weak var actionButton: UIButton!
@@ -39,7 +35,7 @@ class ViewController: UIViewController {
 
     @IBAction func actionButtonTapped(_ sender: UIButton) {
         if counter == 0 {
-            redLightLabel.alpha = 1
+            lightLabels[0].alpha = 1
             actionButton.setTitle("Next", for: .normal)
             counter += 1
             return
